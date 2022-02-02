@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="jquery.js"></script>
+    <script src="jquery-csv.js"></script>
+    <script src="script01.js" defer></script>
+    <!-- <script src="script02.js" defer></script> -->
+    <title>Parsing Data</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="form">
+        <form>
+          <ul>
+            <li>
+              <label for="Department">Department:</label>
+              <input type="text" id="Department" name="userDepartment" />
+            </li>
+            <li>
+              <label for="Course">Course:</label>
+              <input type="text" id="Course" name="userCourse" />
+            </li>
+            <li class="button">
+              <button id="formSubmit" type="submit">Submit</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <!-- How to keep header static (stays on screen throughout scrolling)-->
+            <th scope="col" width="10%">Semester</th>
+            <th scope="col" width="15%">Professor</th>
+            <th scope="col" width="5%">Section</th>
+            <th scope="col" width="5%">GPA</th>
+            <th scope="col" width="5%">A</th>
+            <th scope="col" width="5%">B</th>
+            <th scope="col" width="5%">C</th>
+            <th scope="col" width="5%">D</th>
+            <th scope="col" width="5%">F</th>
+            <th scope="col" width="7.5%">A - F</th>
+            <th scope="col" width="5%">Total</th>
+          </tr>
+        </thead>
+      </table>
+    </section>
+  </body>
+</html>
