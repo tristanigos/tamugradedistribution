@@ -71,6 +71,7 @@ const parsing = (ev) => {
   table.append(tableBody);
 };
 
+// implementation work in progress
 var testing = [];
 const sorting = (course) => {
   course
